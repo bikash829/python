@@ -16,7 +16,7 @@
     
 
 # #display odd numbers betweeen 0 to 100
-x = 6
+x = int(input("Please enter a numeric value : "))
 if x % 2 != 0:
     print("The number is Odd",end= '\t')
 
