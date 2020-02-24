@@ -17,7 +17,9 @@ print(s.index('v'))
 #print(s.index('k'))
 print(s.replace('V','U'))
 print(s.title())
-print(s.swapcase()) #toggle case
+
+swap = "somethin something"
+print(swap.swapcase()) #toggle case
 
 #print(help(s.find))
 #print(dir(s))
