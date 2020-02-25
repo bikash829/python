@@ -1,6 +1,6 @@
 #	Python 3
 ##	Python Lesson
-1. day001 : 
+1. day001 : installing 
 2. day002 : print .format() function 
 3. day003 : string function 
 4. day004 : operator, escaping , input 
