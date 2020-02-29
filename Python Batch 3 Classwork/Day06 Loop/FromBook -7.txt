@@ -1,0 +1,31 @@
+6. Loops
+==================================
+
+The while Loop in Action
+=============================
+
+current_number = 1
+while current_number <= 5:
+    print(current_number)
+    current_number = current_number+1
+
+Python for Loop
+====================================		
+What is for loop in Python?
+
+The for loop in Python is used to iterate over a sequence (list, tuple, string) 
+or other iterable objects. Iterating over a sequence is called traversal.
+Syntax of for Loop
+
+for val in sequence:
+	Body of for
+
+The range() function
+We can generate a sequence of numbers using range() function. range(10) 
+will generate numbers from 0 to 9 (10 numbers).
+
+genre = ['pop', 'rock', 'jazz']
+
+# iterate over the list using index
+for i in range(len(genre)):
+	print("I like", genre[i])

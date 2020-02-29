@@ -1,0 +1,82 @@
+3. IntroduCing  Lists
+==================================
+what Is a list?
+A list is a collection of items in a particular order. 
+
+bicycles = ['trek', 'cannondale', 'redline', 'specialized']
+print(bicycles)
+
+Accessing Elements in a List
+Lists are ordered collections, so you can access any element in a list by 
+telling Python the position, or index, of the item desired. 
+print(bicycles[0])
+
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+motorcycles[0] = 'ducati'
+print(motorcycles)
+
+motorcycles = [] 
+motorcycles.append('honda') 
+motorcycles.append('yamaha') 
+motorcycles.append('suzuki') 
+print(motorcycles)
+
+motorcycles = ['honda', 'yamaha', 'suzuki'] 
+motorcycles.insert(0, 'ducati')
+print(motorcycles)
+
+removing an Item Using the del Statement
+If you know the position of the item you want to remove from a list, you can 
+use the del statement. 
+
+motorcycles = ['honda', 'yamaha', 'suzuki'] 
+print(motorcycles)
+del motorcycles[0] 
+print(motorcycles)
+
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+popped_motorcycle = motorcycles.pop() 
+print(motorcycles)
+print(popped_motorcycle)
+
+removing an Item by Value
+Sometimes you won’t know the position of the value you want to remove 
+from a list. If you only know the value of the item you want to remove, you 
+can use the remove() method.
+For example, let’s say we want to remove the value 'ducati' from the list of 
+motorcycles. 
+motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati'] 
+print(motorcycles)
+motorcycles.remove('ducati')
+print(motorcycles)
+
+Sorting a List Permanently with the sort() Method
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+cars.sort()
+print(cars)
+
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+cars.sort(reverse=True)
+print(cars)
+
+Sorting a List Temporarily with the sorted() Function
+print("\nHere is the sorted list:")
+print(sorted(cars))
+
+Printing a List in Reverse Order
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print(cars)
+cars.reverse()
+print(cars)
+
+Finding the Length of a List
+You can quickly find the length of a list by using the len() function. The list 
+in this example has four items, so its length is 4:
+>>> cars = ['bmw', 'audi', 'toyota', 'subaru']
+>>> len(cars)
+
+motorcycles = ['honda', 'yamaha', 'suzuki'] 
+print(motorcycles[-1])
+

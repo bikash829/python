@@ -11,3 +11,7 @@
 				multiple decition maker
             *	lesson5c->
 				multiple decition maker in a loop
+6. day006 : Loops
+		* lesson6a->while loop action
+		* For  loopx action
+7. day007 : array functions
