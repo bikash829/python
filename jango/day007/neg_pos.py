@@ -6,8 +6,6 @@ for x in nums:
 print(y)
 
 
-    
-
 
 
 

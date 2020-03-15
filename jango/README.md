@@ -15,3 +15,19 @@
 		* lesson6a->while loop action
 		* For  loopx action
 7. day007 : array functions
+
+8. day008 : List,tuple,Dictonary
+			* work for list show
+			* lessson1a -> tuple
+			* lesson2b  -> Dictionary
+			*work -> multiple dictionary print in a organize way...
+
+9. day009 : Nested dictionary 
+			* multiple_dictionary -> using format and % 
+			* function ->python function  
+
+10. day0010: Function:
+			 * class.py -> calculator usgin function by passig paramiter 
+			 * moudule.py -> create function in this module
+			 * myMod.py -> another module 
+			 * cllModule.py -> call module 
