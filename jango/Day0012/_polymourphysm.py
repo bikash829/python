@@ -12,7 +12,7 @@ class Penguin:
         print("Penguin can't fly")
 
     def swim(self):
-        print("Parrot can swim")
+        print("Penguin can swim")
 
 # Common interface
 def flying_test(obj):

@@ -31,3 +31,14 @@
 			 * moudule.py -> create function in this module
 			 * myMod.py -> another module 
 			 * cllModule.py -> call module 
+
+11. day0011: Class:
+			 * day0011-> class introduction
+			 * lesson11b->  class with constractor and its properties and priting **docstring 
+			 * lesson11c -> access constractor properties to other method
+
+12. day0012: Class: 
+			class12a -> multiple class 
+			datetimeExample-> importing date time function
+			classAttribute -> how to work with class
+			_polymourphysm -> python polymourphism
